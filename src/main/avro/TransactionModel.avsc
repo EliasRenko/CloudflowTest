@@ -1,0 +1,28 @@
+{
+    "namespace": "transactionData",
+
+    "type": "record",
+
+    "name": "TransactionModel",
+
+    "fields":[
+
+         {
+            "name": "name",
+
+            "type": {
+
+                "type": "string"
+            }
+         },
+
+         {
+             "name": "value",
+
+             "type": {
+
+                 "type": "long"
+             }
+          }
+    ]
+}
